@@ -1,0 +1,141 @@
+.root {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+  padding: 0 0 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 32px;
+  border-bottom: 1px solid #222;
+  background: #0d0d0d;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: #fff;
+}
+.logo span {
+  color: #C5FF00;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.refresh {
+  background: transparent;
+  border: 1px solid #333;
+  color: #888;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: all 0.15s;
+}
+.refresh:hover { border-color: #C5FF00; color: #C5FF00; }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.statCard {
+  background: #0d0d0d;
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.statValue {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-family: 'Courier New', monospace;
+}
+
+.statLabel {
+  font-size: 10px;
+  color: #444;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.section {
+  margin: 28px 32px 0;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.sectionHeader h2 {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #555;
+  margin: 0;
+}
+
+.triggerRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  color: #e0e0e0;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 180px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.input:focus { border-color: #C5FF00; }
+
+.btn {
+  background: #C5FF00;
+  color: #000;
+  border: none;
+  padding: 10px 22px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+}
+.btn:hover { opacity: 0.85; }
+
+.trigStatus {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #C5FF00;
+}
+
+.filters {
+  di
