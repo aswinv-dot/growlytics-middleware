@@ -1,5 +1,5 @@
 {
-  "name": "growlytics-middleware",
+  "name": "metabase-growlytics-connector",
   "version": "1.0.0",
   "private": true,
   "scripts": {
